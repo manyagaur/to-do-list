@@ -1,0 +1,111 @@
+body{
+  background-color: rgb(30, 29, 29);
+  color:aliceblue;
+
+
+}
+
+.card{
+  border:solid #4a4949 2px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(58, 57, 57);
+  padding: 100px;
+  margin: 10px;
+  max-width: 300px;
+  max-height: 200px;
+  text-align: center;
+  display: inline-block;
+  
+}
+
+.card img{
+  margin: 0;
+}
+
+.profile{
+  max-width: 150px;
+  height: auto;
+  border-radius: 150px;
+  
+}
+
+.name{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.para{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.zero{
+  display:flex;
+  justify-content: center;
+  font-size: 5em;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.flex{
+  display:flex;
+  justify-content: space-between;
+}
+
+button{
+  font-size: 14px;
+  font-weight: bold;
+  background-color: rgb(136, 179, 228);
+}
+
+button:hover{
+  background-color:rgb(91, 130, 174);
+}
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width:300px;
+  border: solid grey;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.add-button{
+
+  background: linear-gradient(to right, #ff69b4, #ff6a9a, #ff6b7f, #ff6d64, #ff6f49);
+  border: solid rgb(232, 137, 148) 2px;
+  color: #fff;
+  padding: 6px 20px; 
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.task-input{
+  padding: 6px 20px;
+  font-size: 16px;
+}
